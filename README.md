@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and certi
 
 ## 🚀 Live Demo
 
-Visit the live portfolio at: [https://charanepuri.github.io/portfolio](https://charanepuri.github.io/portfolio)
+Visit the live portfolio at: [[https://charanepuri.github.io/portfolio](https://charanepuri.github.io/portfolio)](https://charanepuri.github.io/PORTFOLIO-USING-HTML-CSS-JS/)
 
 ## 📋 Features
 
