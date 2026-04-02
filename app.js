@@ -45,8 +45,28 @@ document.addEventListener('DOMContentLoaded', function(){
 		if(btn){
 			const src = btn.getAttribute('data-cert-src');
 			if(src){
-				certFrame.src = src;
-				certDownload.href = src;
+				let previewSrc = src;
+				let downloadSrc = src;
+
+				// Normalize Google Drive links to embed preview + direct download
+				if(src.includes('drive.google.com')){
+					const match = src.match(/\/d\/([a-zA-Z0-9_-]+)/);
+					if(match){
+						const fileId = match[1];
+						previewSrc = `https://drive.google.com/file/d/${fileId}/preview`;
+						downloadSrc = `https://drive.google.com/uc?export=download&id=${fileId}`;
+					} else if(src.includes('open?id=')){
+						const query = new URL(src).searchParams;
+						const fileId = query.get('id');
+						if(fileId){
+							previewSrc = `https://drive.google.com/file/d/${fileId}/preview`;
+							downloadSrc = `https://drive.google.com/uc?export=download&id=${fileId}`;
+						}
+					}
+				}
+
+				certFrame.src = previewSrc;
+				certDownload.href = downloadSrc;
 				modal.setAttribute('aria-hidden','false');
 			}
 		}
