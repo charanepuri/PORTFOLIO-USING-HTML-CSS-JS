@@ -10,6 +10,8 @@ Visit the live portfolio at: https://charanepuri.github.io/PORTFOLIO-USING-HTML-
 
 - **Responsive Design**: Optimized for all devices (desktop, tablet, mobile)
 - **Interactive Elements**: Smooth scrolling navigation, typewriter effect, certificate modal viewer
+- **Dynamic Content**: Portfolio data (Profile, Skills, Projects, Certifications) is managed efficiently in JavaScript
+- **Professional Profile**: A structured section highlighting technical expertise, academic background, and core competencies
 - **Projects Showcase**: Highlighting key projects with live links and documentation
 - **Skills Overview**: Technical, presentation, soft skills, and tools
 - **Certifications**: View and download certificates directly from Google Drive
@@ -43,11 +45,11 @@ Visit the live portfolio at: https://charanepuri.github.io/PORTFOLIO-USING-HTML-
 portfolio/
 ├── index.html          # Main portfolio page
 ├── index.css           # Styles and responsive design
-├── app.js             # JavaScript functionality
+├── app.js             # Dynamic portfolio data and UI functionality
 ├── README.md          # This file
 ├── title-pic.jpg      # Header profile image
 ├── PROFILE PIC.jpg    # Main profile photo
-├── CHARAN TEJA EPURI.pdf  # CV download
+├── Charan-Teja-Epuri-Resume.pdf  # Resume download
 └── certificates/      # Certificate files (stored on Google Drive)
 ```
 
