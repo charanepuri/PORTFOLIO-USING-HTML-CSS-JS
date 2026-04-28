@@ -93,14 +93,21 @@ This portfolio is deployed using GitHub Pages:
 
 ## 📚 Projects Featured
 
-### 1. Bible Reference Web Application
+### 1. Anasuya Bharadwaj Fan-Made Portfolio Website
+
+- **Repository**: [GitHub](https://github.com/charanepuri/anasuya-filmography-app)
+- **Documentation**: [View Document](https://drive.google.com/file/d/1ATQEft0uYbjef9qphJDIdaKNx6WVyZzB/view?usp=sharing)
+- **Technologies**: HTML5, CSS3, Vanilla JavaScript
+- **Features**: Dynamic JSON data loading, interactive search & filtering system, responsive gallery with lightbox view
+
+### 2. Bible Reference Web Application
 
 - **Live Demo**: [Bible App](https://charanepuri.github.io/bible-reference-app/)
 - **Repository**: [GitHub](https://github.com/charanepuri/bible-reference-app)
 - **Technologies**: HTML, CSS, JavaScript, GitHub Pages
 - **Features**: 66 books, multilingual support (5 languages), search & filtering
 
-### 2. Document Chatting Using Large Language Models (LLMs)
+### 3. Document Chatting Using Large Language Models (LLMs)
 
 - **Documentation**: [View PDF](./Project%20Documentation.pdf)
 - **Technologies**: Python, LLMs, React, Node.js, MongoDB

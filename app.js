@@ -35,6 +35,25 @@ const skillsData = [
 
 const projectsData = [
 	{
+		title: "Anasuya Bharadwaj Fan-Made Portfolio Website",
+		desc: "The Anasuya Bharadwaj Fan-Made Portfolio Website is a modern, responsive web application designed to showcase the career journey, achievements, and works of Anasuya Bharadwaj. Built using HTML5, CSS3, and Vanilla JavaScript, the project focuses on delivering a clean UI with dynamic content loading, interactive components, and engaging user experience. It organizes filmography, television shows, biography, and gallery into a structured and visually appealing digital platform, making it a strong demonstration of frontend development skills.",
+		
+		features: [
+			"Dynamic data loading using JSON",
+			"Interactive Search & Filtering System",
+			"Typewriter intro with animated overlay",
+			"Responsive gallery with lightbox view",
+			"Client-side content protection mechanisms"
+		],
+
+		links: [
+			// { label: "Live Project Link", url: "#", outline: false },
+			{ label: "GitHub Repository Link", url: "https://github.com/charanepuri/anasuya-filmography-app", outline: false },
+			{ label: "Project Documentation", url: "https://drive.google.com/file/d/1ATQEft0uYbjef9qphJDIdaKNx6WVyZzB/view?usp=sharing", outline: true }
+		]
+	},
+
+	{
 		title: "Bible Reference Web Application",
 		desc: "Developed a fully responsive Bible reference web application with all 66 books, structured data (categories, chapters, verses, authors), real-time search, and category filtering. Built multilingual support for Telugu, Hindi, Tamil, Malayalam, and Kannada; includes Bible history timeline and interactive story modals; deployed on GitHub Pages with Git version control.",
 		
