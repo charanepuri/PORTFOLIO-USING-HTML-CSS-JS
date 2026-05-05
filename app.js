@@ -35,6 +35,24 @@ const skillsData = [
 
 const projectsData = [
 	{
+		title: "Terms & Conditions Analyzer Web Application",
+		desc: "T&C Simplifier is a SaaS-style web application designed to help users quickly understand complex Terms & Conditions. It analyzes legal text, breaks it into readable clauses, and classifies them into risk categories such as Safe, Caution, and Risky. The application provides a risk score and a simplified summary to enhance user understanding. It features a modern, responsive UI with dark mode and file upload support. The project focuses on improving usability and making legal content easier to interpret.",
+		
+		features: [
+			"Developed a SaaS-style T&C analyzer that classifies legal clauses into risk categories",
+			"Implemented risk scoring system and summary generation for better decision-making",
+			"Designed a responsive UI with Tailwind CSS and dark mode support",
+			"Built modular JavaScript logic for text processing and classification",
+			"Added file upload feature to analyze external Terms & Conditions"
+		],
+
+		links: [
+			{ label: "Live Project Link", url: "https://charanepuri.github.io/tc-simplifier-saas/", outline: false },
+			{ label: "GitHub Repository Link", url: "https://github.com/charanepuri/tc-simplifier-saas", outline: false },
+			{ label: "Project Documentation", url: "https://drive.google.com/file/d/1ZzfY_jakH3uz2DnZXmlyTejezbUhNByJ/view?usp=sharing", outline: true }
+		]
+	},
+	{
 		title: "Anasuya Bharadwaj Fan-Made Portfolio Website",
 		desc: "The Anasuya Bharadwaj Fan-Made Portfolio Website is a modern, responsive web application designed to showcase the career journey, achievements, and works of Anasuya Bharadwaj. Built using HTML5, CSS3, and Vanilla JavaScript, the project focuses on delivering a clean UI with dynamic content loading, interactive components, and engaging user experience. It organizes filmography, television shows, biography, and gallery into a structured and visually appealing digital platform, making it a strong demonstration of frontend development skills.",
 		
