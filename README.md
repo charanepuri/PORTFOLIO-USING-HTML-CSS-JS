@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and certi
 
 ## 🚀 Live Demo
 
-Visit the live portfolio at: https://charanepuri.github.io/PORTFOLIO-USING-HTML-CSS-JS/
+Visit the live portfolio at: https://charanepuri.github.io/PORTFOLIO-USING-HTML-CSS-JS
 
 ## 📋 Features
 
@@ -84,30 +84,49 @@ This portfolio is deployed using GitHub Pages:
 **Charan Teja Epuri**
 
 - **Email**: charanepuri26@gmail.com
-- **Phone**: +91 9573640326
 - **WhatsApp**: [Click to chat](https://wa.me/919573640326)
 - **LinkedIn**: [Charan Teja Epuri](https://www.linkedin.com/in/charan-teja-972aa9231/)
 - **GitHub**: [charanepuri](https://github.com/charanepuri)
 - **Instagram**: [\_just_call_me_charan_tej](https://www.instagram.com/_just_call_me_charan_tej?igsh=M3c1ZHhsbjloZXcw)
-- **Snapchat**: justcalltej2003
+- **Snapchat**: [justcalltej2003](https://www.snapchat.com/add/justcalltej2003?share_id=o3MYfXqlpYE&locale=en-IN)
 
-## 📚 Projects Featured
+## 💼 Experience
 
-### 1. Anasuya Bharadwaj Fan-Made Portfolio Website
+### Full Stack Development Intern
+
+**SaiKet Systems** | _06 April 2026 – 06 May 2026_ (Remote)
+
+- Built responsive web interfaces using HTML, CSS, and JavaScript.
+- Developed interactive applications using React.
+- Implemented RESTful APIs using Node.js and Express.
+- Integrated frontend with backend APIs using Axios.
+- Designed and connected MongoDB database for data storage.
+- Successfully built and delivered 6 complete full stack projects.
+
+## � Projects Featured
+
+### 1. Terms & Conditions Analyzer Web Application
+
+- **Repository**: [GitHub](https://github.com/charanepuri/tc-simplifier-saas)
+- **Documentation**: [View Document](https://drive.google.com/file/d/1ZzfY_jakH3uz2DnZXmlyTejezbUhNByJ/view)
+- **Technologies**: HTML5, Tailwind CSS,JavaScript (ES6),Mobile-first SaaS UI
+- **Features**: Experience faster legal audits with File Upload Support, automated Smart Clause Detection, and clear Risk Classification via intuitive Keyword Highlighting
+
+### 2. Anasuya Bharadwaj Fan-Made Portfolio Website
 
 - **Repository**: [GitHub](https://github.com/charanepuri/anasuya-filmography-app)
 - **Documentation**: [View Document](https://drive.google.com/file/d/1ATQEft0uYbjef9qphJDIdaKNx6WVyZzB/view?usp=sharing)
 - **Technologies**: HTML5, CSS3, Vanilla JavaScript
 - **Features**: Dynamic JSON data loading, interactive search & filtering system, responsive gallery with lightbox view
 
-### 2. Bible Reference Web Application
+### 3. Bible Reference Web Application
 
 - **Live Demo**: [Bible App](https://charanepuri.github.io/bible-reference-app/)
 - **Repository**: [GitHub](https://github.com/charanepuri/bible-reference-app)
 - **Technologies**: HTML, CSS, JavaScript, GitHub Pages
 - **Features**: 66 books, multilingual support (5 languages), search & filtering
 
-### 3. Document Chatting Using Large Language Models (LLMs)
+### 4. Document Chatting Using Large Language Models (LLMs)
 
 - **Documentation**: [View PDF](./Project%20Documentation.pdf)
 - **Technologies**: Python, LLMs, React, Node.js, MongoDB
