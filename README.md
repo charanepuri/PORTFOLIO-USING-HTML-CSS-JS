@@ -92,6 +92,25 @@ This portfolio is deployed using GitHub Pages:
 
 ## 💼 Experience
 
+### Python Development Intern
+
+**Sysslan IT Solutions** | _25 April 2026 – 25 May 2026_ (Remote)
+
+- Built structured Python programs using loops, conditions, and functions.
+- Developed utility tools such as password generators and text analyzers.
+- Implemented file handling systems for saving and retrieving data.
+- Created automation scripts for file organization and backup management.
+- Performed basic web scraping using BeautifulSoup.
+
+### Front-End Web Developer Intern
+
+**CodeAsire** | _18 April 2026 – 18 May 2026_ (Remote)
+
+- Built responsive web applications and interactive components using HTML5, CSS3, and JavaScript.
+- Developed component-based React applications and integrated dynamic API data fetching.
+- Implemented state management using React hooks and persistent data using local storage.
+- Optimally solved challenges in managing dynamic user-generated content and asynchronous API handling.
+
 ### Full Stack Development Intern
 
 **SaiKet Systems** | _06 April 2026 – 06 May 2026_ (Remote)

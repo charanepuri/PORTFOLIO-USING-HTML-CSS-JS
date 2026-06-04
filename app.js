@@ -207,82 +207,251 @@
       year: 'Graduation Year: 2025',
       grade: 'Cumulative Grade: 7/10',
     },
-    experience: {
-      role: 'Full Stack Development Intern',
-      company: 'SaiKet Systems',
-      duration: '06 April 2026 – 06 May 2026',
-      mode: 'Remote',
-      overview:
-        'During this internship, I worked on real-world web development projects, progressing from frontend fundamentals to building complete full stack applications with backend and database integration.',
-      tasks: [
-        'Built responsive web interfaces using HTML, CSS, and JavaScript',
-        'Developed interactive applications using React',
-        'Implemented RESTful APIs using Node.js and Express',
-        'Integrated frontend with backend APIs using Axios',
-        'Designed and connected MongoDB database for data storage',
-        'Debugged and optimized application performance',
-      ],
-      tech: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB (Atlas)', 'Git & GitHub', 'Postman'],
-      projects: [
-        {
-          title: 'Portfolio Website',
-          desc: 'Built a personal portfolio with responsive design',
-          role: 'Frontend Development',
-          github: 'https://github.com/charanepuri/portfolio-website',
-          linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_saiketsystemsjourney-saiketexperience-saiketprojects-activity-7449664001724129280-2Xnc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
-        },
-        {
-          title: 'E-commerce Landing Page',
-          desc: 'Designed a responsive product landing page with UI components',
-          role: 'UI Development',
-          github: 'https://github.com/charanepuri/responsive-ecommerce-landing-page',
-          linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_saiketsystemsjourney-saiketexperience-saiketprojects-activity-7450388776075313152-iKE_?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
-        },
-        {
-          title: 'React To-Do App',
-          desc: 'Developed a dynamic task manager with add/delete features',
-          role: 'Frontend Logic Implementation',
-          github: 'https://github.com/charanepuri/react-todo-app',
-          linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_saiketsystemsjourney-saiketexperience-saiketprojects-activity-7451124867359502336-DGuL?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
-        },
-        {
-          title: 'REST API (Node.js)',
-          desc: 'Built CRUD API for user data management',
-          role: 'Backend Development',
-          github: 'https://github.com/charanepuri/node-rest-api',
-          linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_nodejs-expressjs-restapi-activity-7452348024191684609-Ry3V?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
-        },
-        {
-          title: 'Full Stack To-Do App',
-          desc: 'Connected React frontend with Node.js backend',
-          role: 'Full Stack Integration',
-          github: 'https://github.com/charanepuri/saiket-task-5-fullstack-todo-app',
-          linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_fullstackdevelopment-reactjs-nodejs-activity-7452925482230026240-_NWP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
-        },
-        {
-          title: 'User Management System',
-          desc: 'Developed full stack application with MongoDB database',
-          role: 'Full Stack Development',
-          github: 'https://github.com/charanepuri/saiket-task-6-user-management-system',
-          linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_saiketsystemsjourney-saiketexperience-saiketprojects-activity-7455820930074738688-ItaN?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
-        },
-      ],
-      learned: [
-        'Improved backend development skills',
-        'Learned real-world project structure',
-        'Understood API integration and data flow',
-        'Practiced debugging and clean coding',
-        'Gained confidence in full stack development',
-      ],
-      achievements: [
-        'Successfully completed 6 real-world projects',
-        'Built a complete full stack application with database',
-        'Strengthened problem-solving and debugging skills',
-        'Maintained consistent learning and project delivery',
-      ],
-      offerLetter: 'https://drive.google.com/file/d/14KUOPz_EjkJ4X9hT8r_RKdJH_Yj7VWwK/view?usp=sharing',
-      certificate: 'https://drive.google.com/file/d/1dgQVnSeEqGcZPQLmIGUxC-NfT5eTtvEW/view?usp=sharing',
-    },
+    experiences: [
+      {
+        role: 'Python Development Intern',
+        company: 'Sysslan IT Solutions',
+        duration: '25 April 2026 – 25 May 2026',
+        durationLabel: 'April 2026 – May 2026',
+        mode: 'Remote',
+        overview:
+          'Completed a one-month Python Development Internship focused on programming fundamentals, automation, file handling, and real-world Python applications. Worked on multiple hands-on tasks and mini projects that strengthened problem-solving, coding structure, and practical development skills.',
+        tasks: [
+          'Built structured Python programs using loops, conditions, and functions',
+          'Developed utility tools such as password generators and text analyzers',
+          'Implemented file handling systems for saving and retrieving data',
+          'Created automation scripts for file organization and backup management',
+          'Developed logging systems with date and time tracking',
+          'Implemented CSV data reading and processing',
+          'Performed basic web scraping using BeautifulSoup',
+          'Automated repetitive file management tasks',
+          'Organized and processed structured data efficiently',
+          'Improved data storage and retrieval using file handling',
+          'Simplified daily task management using Python scripts',
+          'Generated reports and analyzed numerical data dynamically',
+        ],
+        tech: ['Python', 'File Handling', 'CSV Module', 'BeautifulSoup', 'Requests Library', 'OS Module', 'Shutil Module', 'Datetime Module'],
+        projects: [
+          {
+            title: 'Level 1 – Basic Logic & Structured Thinking',
+            desc: 'Features: 3×3 Grid Display, Number Search in Grid, Row-wise Sum Calculation, Unique Number Validation',
+            role: 'Developed Python programs focusing on logical thinking, loops, and conditional statements.',
+            github: 'https://github.com/charanepuri/python-internship-sysslan-level1',
+            linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_sysslanitsolutions-sysslan-sysslanprojects-activity-7456549350169550848-MOy6?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
+          },
+          {
+            title: 'Level 2 – Core Python Programs',
+            desc: 'Features: Email Validator, Password Generator, Text Analyzer, Fibonacci Sequence Generator',
+            role: 'Built utility-based Python applications using string manipulation and functions.',
+            github: 'https://github.com/charanepuri/python-internship-sysslan-level2',
+            linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_sysslanitsolutions-sysslan-sysslanprojects-activity-7457998905675264000-08wF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
+          },
+          {
+            title: 'Level 3 – File Handling & Automation',
+            desc: 'Features: Record Management System, File Save & Retrieve System, File Reader, Log File System',
+            role: 'Implemented file handling and data storage systems using Python.',
+            github: 'https://github.com/charanepuri/python-internship-sysslan-level3',
+            linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_sysslanitsolutions-sysslan-sysslanprojects-activity-7459448470882525184-O8-I?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
+          },
+          {
+            title: 'Level 4 – Beginner Automation & Data Handling',
+            desc: 'Features: File Organizer Automation, Student Report Generator, Daily Task Manager, Data Analysis from Files',
+            role: 'Developed automation scripts and data processing utilities.',
+            github: 'https://github.com/charanepuri/python-internship-sysslan-level4',
+            linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_sysslanitsolutions-sysslan-sysslanprojects-activity-7461260392325951488-deFj?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
+          },
+          {
+            title: 'Level 5 – Real-World Python Projects',
+            desc: 'Features: Web Scraping using BeautifulSoup, CSV Data Handling, Automated Backup Script, Mini Utility Tool',
+            role: 'Worked on practical Python applications and automation concepts.',
+            github: 'https://github.com/charanepuri/python-internship-sysslan-level5',
+            linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_sysslanitsolutions-sysslan-sysslanprojects-activity-7463072351673561088-LM8R?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
+          },
+        ],
+        learned: [
+          'Improved Python programming and backend development skills',
+          'Learned structured project organization and clean coding practices',
+          'Understood real-world file handling and automation workflows',
+          'Practiced debugging, logical thinking, and problem-solving',
+          'Gained experience with web scraping and CSV processing',
+          'Strengthened confidence in building practical Python applications',
+        ],
+        achievements: [
+          'Successfully completed all 5 internship levels',
+          'Built multiple Python mini projects and automation tools',
+          'Maintained project documentation and GitHub repositories',
+          'Improved coding consistency and development workflow',
+          'Shared project progress and learning journey on LinkedIn',
+        ],
+        offerLetter: 'https://drive.google.com/file/d/1cckcRsV_PRCJv-O6aaa-3yDLOVCWef0o/view?usp=sharing',
+        certificate: 'https://drive.google.com/file/d/1fAOwKBoBVy1Gpo3lu0gOKrvIhkA5MJ90/view?usp=sharing',
+        profilePoints: [
+          { label: 'Backend & Automation:', text: 'Developed utility tools, automation scripts, and file handling systems using Python.' },
+          { label: 'Data Processing:', text: 'Implemented CSV data reading, log management, and basic web scraping with BeautifulSoup.' },
+          { label: 'Problem Solving:', text: 'Automated repetitive tasks and organized structured data efficiently.' },
+        ],
+      },
+      {
+        role: 'Front-End Web Developer Intern',
+        company: 'CodeAsire',
+        duration: '18 April 2026 – 18 May 2026',
+        durationLabel: 'April 2026 – May 2026',
+        mode: 'Remote',
+        overview:
+          'Completed a one-month Front-End Development Internship at CodeAsire, gaining practical experience in building responsive web applications, implementing JavaScript interactivity, developing React applications, and integrating external APIs. The internship provided hands-on exposure to modern web development practices and real-world project workflows.',
+        tasks: [
+          'Built responsive landing pages using HTML5 and CSS3',
+          'Built interactive JavaScript applications and component-based React applications',
+          'Built API-driven web applications with dynamic data rendering',
+          'Developed modern user interfaces with responsive layouts and reusable React components',
+          'Developed dynamic note management functionality and API data fetching systems',
+          'Implemented DOM manipulation using JavaScript and React state management using useState',
+          'Implemented local storage for persistent data and error handling for API requests',
+          'Optimized user experience through responsive design and component-based architecture',
+          'Optimized frontend performance through efficient rendering and code organization',
+        ],
+        tech: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React.js', 'Fetch API', 'LocalStorage', 'Git & GitHub', 'Vercel', 'VS Code'],
+        projects: [
+          {
+            title: 'Modern Landing Page',
+            desc: 'A responsive and modern landing page featuring a navigation bar, hero section, feature cards, and footer.',
+            role: 'Designed and developed the complete frontend layout using HTML and CSS.',
+            github: 'https://github.com/charanepuri/codeasire-landing-page',
+            linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_frontenddevelopment-webdevelopment-html-activity-7453287869407842304-yuHg?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
+          },
+          {
+            title: 'JavaScript To-Do Application',
+            desc: 'Allows users to add, delete, and manage daily tasks with local storage support.',
+            role: 'Implemented DOM manipulation, task management functionality, and persistent storage.',
+            github: 'https://github.com/charanepuri/codeasire-todo-app',
+            linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_javascript-webdevelopment-frontenddeveloper-activity-7454375024431484929-L2u4?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
+          },
+          {
+            title: 'React Notes App',
+            desc: 'A React-based notes management application with dynamic note creation and deletion.',
+            role: 'Developed reusable components, managed state using React hooks, and implemented local storage.',
+            github: 'https://github.com/charanepuri/codeasire-react-notes-app',
+            linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_reactjs-frontenddevelopment-webdevelopment-activity-7455462191056666624-FjiA?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
+          },
+          {
+            title: 'GitHub Users Explorer',
+            desc: 'Fetches and displays GitHub user data dynamically using the GitHub API.',
+            role: 'Integrated APIs, implemented loading and error handling, and deployed the application.',
+            github: 'https://github.com/charanepuri/codeasire-github-users-app',
+            linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_webdevelopment-frontenddevelopment-javascript-activity-7460535626178772993-vTWB?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
+          },
+        ],
+        learned: [
+          'Improved frontend development skills through practical projects',
+          'Learned modern React development concepts',
+          'Understood API integration and asynchronous JavaScript',
+          'Practiced debugging and troubleshooting real-world issues',
+          'Gained experience with responsive web design',
+          'Learned component-based application architecture',
+          'Improved code organization and maintainability',
+          'Understood deployment workflows using Vercel',
+          'Enhanced problem-solving and analytical thinking skills',
+        ],
+        achievements: [
+          'Successfully completed a one-month Front-End Development Internship',
+          'Built and deployed multiple frontend projects',
+          'Worked with HTML, CSS, JavaScript, React.js, and APIs',
+          'Implemented dynamic and interactive user interfaces',
+          'Gained practical experience with modern development tools',
+          'Strengthened real-world software development skills',
+        ],
+        offerLetter: 'https://drive.google.com/file/d/1zXfHYfmKReT8b26Y-0nzirHrlq-v-gNY/view?usp=sharing',
+        certificate: 'https://drive.google.com/file/d/1JO1kil-9U4L0X_q3mmeGB8ivkEx9eqpc/view?usp=sharing',
+        profilePoints: [
+          { label: 'Frontend & UI Development:', text: 'Built responsive web applications and interactive interfaces using HTML5, CSS3, JavaScript, and React.js.' },
+          { label: 'API & State Management:', text: 'Integrated external APIs with dynamic data rendering and implemented React state with local storage.' },
+          { label: 'Application Architecture:', text: 'Optimized frontend performance through reusable components and structured deployment workflows.' },
+        ],
+      },
+      {
+        role: 'Full Stack Development Intern',
+        company: 'SaiKet Systems',
+        duration: '06 April 2026 – 06 May 2026',
+        durationLabel: 'April 2026 – May 2026',
+        mode: 'Remote',
+        overview:
+          'During this internship, I worked on real-world web development projects, progressing from frontend fundamentals to building complete full stack applications with backend and database integration.',
+        tasks: [
+          'Built responsive web interfaces using HTML, CSS, and JavaScript',
+          'Developed interactive applications using React',
+          'Implemented RESTful APIs using Node.js and Express',
+          'Integrated frontend with backend APIs using Axios',
+          'Designed and connected MongoDB database for data storage',
+          'Debugged and optimized application performance',
+        ],
+        tech: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB (Atlas)', 'Git & GitHub', 'Postman'],
+        projects: [
+          {
+            title: 'Portfolio Website',
+            desc: 'Built a personal portfolio with responsive design',
+            role: 'Frontend Development',
+            github: 'https://github.com/charanepuri/portfolio-website',
+            linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_saiketsystemsjourney-saiketexperience-saiketprojects-activity-7449664001724129280-2Xnc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
+          },
+          {
+            title: 'E-commerce Landing Page',
+            desc: 'Designed a responsive product landing page with UI components',
+            role: 'UI Development',
+            github: 'https://github.com/charanepuri/responsive-ecommerce-landing-page',
+            linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_saiketsystemsjourney-saiketexperience-saiketprojects-activity-7450388776075313152-iKE_?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
+          },
+          {
+            title: 'React To-Do App',
+            desc: 'Developed a dynamic task manager with add/delete features',
+            role: 'Frontend Logic Implementation',
+            github: 'https://github.com/charanepuri/react-todo-app',
+            linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_saiketsystemsjourney-saiketexperience-saiketprojects-activity-7451124867359502336-DGuL?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
+          },
+          {
+            title: 'REST API (Node.js)',
+            desc: 'Built CRUD API for user data management',
+            role: 'Backend Development',
+            github: 'https://github.com/charanepuri/node-rest-api',
+            linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_nodejs-expressjs-restapi-activity-7452348024191684609-Ry3V?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
+          },
+          {
+            title: 'Full Stack To-Do App',
+            desc: 'Connected React frontend with Node.js backend',
+            role: 'Full Stack Integration',
+            github: 'https://github.com/charanepuri/saiket-task-5-fullstack-todo-app',
+            linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_fullstackdevelopment-reactjs-nodejs-activity-7452925482230026240-_NWP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
+          },
+          {
+            title: 'User Management System',
+            desc: 'Developed full stack application with MongoDB database',
+            role: 'Full Stack Development',
+            github: 'https://github.com/charanepuri/saiket-task-6-user-management-system',
+            linkedin: 'https://www.linkedin.com/posts/charan-teja-972aa9231_saiketsystemsjourney-saiketexperience-saiketprojects-activity-7455820930074738688-ItaN?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoBNCYBh01V0moRjH4J7yxRxtf-MNb6vQs',
+          },
+        ],
+        learned: [
+          'Improved backend development skills',
+          'Learned real-world project structure',
+          'Understood API integration and data flow',
+          'Practiced debugging and clean coding',
+          'Gained confidence in full stack development',
+        ],
+        achievements: [
+          'Successfully completed 6 real-world projects',
+          'Built a complete full stack application with database',
+          'Strengthened problem-solving and debugging skills',
+          'Maintained consistent learning and project delivery',
+        ],
+        offerLetter: 'https://drive.google.com/file/d/14KUOPz_EjkJ4X9hT8r_RKdJH_Yj7VWwK/view?usp=sharing',
+        certificate: 'https://drive.google.com/file/d/1dgQVnSeEqGcZPQLmIGUxC-NfT5eTtvEW/view?usp=sharing',
+        profilePoints: [
+          { label: 'Project Delivery:', text: 'Successfully developed and deployed 6 full-stack applications, ensuring seamless integration between React frontends and Node.js/Express backends.' },
+          { label: 'API Integration:', text: 'Implemented secure RESTful APIs and managed asynchronous data flow using Axios.' },
+          { label: 'Database Management:', text: 'Designed and maintained NoSQL schemas using MongoDB to support dynamic application data.' },
+          { label: 'UI/UX:', text: 'Built responsive, mobile-first interfaces using modern CSS frameworks and JavaScript.' },
+        ],
+      },
+    ],
     projects: [
       {
         title: 'Django School Management System',
@@ -379,16 +548,21 @@
 
       <div class="resume-section">
         <h4>Professional Experience</h4>
-        <div class="project-item">
-          <h5>Full Stack Development Intern — SaiKet Systems</h5>
-          <p><strong>April 2026 – May 2026 | Remote</strong></p>
-          <ul>
-            <li><strong>Project Delivery:</strong> Successfully developed and deployed 6 full-stack applications, ensuring seamless integration between React frontends and Node.js/Express backends.</li>
-            <li><strong>API Integration:</strong> Implemented secure RESTful APIs and managed asynchronous data flow using Axios.</li>
-            <li><strong>Database Management:</strong> Designed and maintained NoSQL schemas using MongoDB to support dynamic application data.</li>
-            <li><strong>UI/UX:</strong> Built responsive, mobile-first interfaces using modern CSS frameworks and JavaScript.</li>
-          </ul>
-        </div>
+        ${safeArray(profileData.experiences)
+          .map(
+            (exp) => `
+              <div class="project-item">
+                <h5>${escapeHTML(exp.role)} — ${escapeHTML(exp.company)}</h5>
+                <p><strong>${escapeHTML(exp.durationLabel)} | ${escapeHTML(exp.mode)}</strong></p>
+                <ul>
+                  ${safeArray(exp.profilePoints)
+                    .map((point) => `<li><strong>${escapeHTML(point.label)}</strong> ${escapeHTML(point.text)}</li>`)
+                    .join('')}
+                </ul>
+              </div>
+            `
+          )
+          .join('')}
       </div>
 
       <div class="resume-section">
@@ -435,15 +609,12 @@
     const container = byId('internships-container');
     if (!container) return;
 
-    const experience = profileData.experience || {};
-    const projects = safeArray(experience.projects);
-    const tasks = safeArray(experience.tasks);
-    const learned = safeArray(experience.learned);
-    const achievements = safeArray(experience.achievements);
-    const techItems = safeArray(experience.tech);
+    const experiences = safeArray(profileData.experiences);
 
-    container.innerHTML = `
-      <div class="resume-content">
+    container.innerHTML = experiences
+      .map(
+        (experience) => `
+      <div class="resume-content" style="margin-bottom: 30px;">
         <div class="resume-header">
           <h3>${escapeHTML(experience.role || 'Internship')}</h3>
           <p class="subtitle">${escapeHTML(experience.company || '')}</p>
@@ -460,24 +631,24 @@
 
         <div class="resume-section">
           <h4>💻 What I Actually Did</h4>
-          <ul>${renderListItems(tasks)}</ul>
+          <ul>${renderListItems(safeArray(experience.tasks))}</ul>
         </div>
 
         <div class="resume-section">
           <h4>🛠 Technologies Used</h4>
-          <p>${techItems.map((item) => escapeHTML(item)).join(', ')}</p>
+          <p>${safeArray(experience.tech).map((item) => escapeHTML(item)).join(', ')}</p>
         </div>
 
         <div class="resume-section">
           <h4>Projects You Built During Internship</h4>
-          ${projects.length
-            ? projects
+          ${safeArray(experience.projects).length
+            ? safeArray(experience.projects)
                 .map(
                   (project) => `
                     <div class="project-item">
                       <h5>${escapeHTML(project.title)}</h5>
                       <p><strong>What it does:</strong> ${escapeHTML(project.desc)}</p>
-                      <p><strong>Your role:</strong> ${escapeHTML(project.role)}</p>
+                      <p><strong>Role:</strong> ${escapeHTML(project.role)}</p>
                       <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 14px;">
                         <a
                           href="${escapeHTML(project.github)}"
@@ -508,29 +679,26 @@
 
         <div class="resume-section">
           <h4>📈 What I Learned</h4>
-          <ul>${renderListItems(learned)}</ul>
+          <ul>${renderListItems(safeArray(experience.learned))}</ul>
         </div>
 
         <div class="resume-section">
           <h4>🏆 Achievements / Highlights</h4>
-          <ul>${renderListItems(achievements)}</ul>
+          <ul>${renderListItems(safeArray(experience.achievements))}</ul>
         </div>
 
-        <div class="resume-section">
-          <h4>Offer Letter Link</h4>
+        <div class="resume-section" style="display: flex; gap: 15px; flex-wrap: wrap;">
           ${experience.offerLetter
             ? `<a class="btn outline" href="${escapeHTML(experience.offerLetter)}" target="_blank" rel="noopener noreferrer">Open Offer Letter</a>`
-            : '<p class="muted">Offer letter link not added yet.</p>'}
-        </div>
-
-        <div class="resume-section">
-          <h4>Certificate Link</h4>
+            : ''}
           ${experience.certificate
             ? `<button class="btn" data-cert-src="${escapeHTML(experience.certificate)}" type="button">View Certificate</button>`
-            : '<p class="muted">Certificate link not added yet.</p>'}
+            : ''}
         </div>
       </div>
-    `;
+    `
+      )
+      .join('<hr style="margin: 40px 0; border: none; border-top: 1px solid rgba(var(--text-color-rgb), 0.1);" />');
   };
 
   const renderSkills = () => {
