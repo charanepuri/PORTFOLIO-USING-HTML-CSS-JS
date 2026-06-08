@@ -101,6 +101,42 @@
   ];
 
   const projectsData = [
+        {
+      title: 'Smart Quote Generator',
+      tech: ['Django' ,'HTML5 ', 'CSS3', 'JavaScript' , 'REST API' , 'Local Storage' , 'Git' , 'GitHub' , 'Render'],
+      desc:
+        'Developed a modern Django web application that fetches and displays inspirational quotes from a public API. Features include dark mode, quote saving, copy-to-clipboard functionality, toast notifications, and a responsive glassmorphism user interface.',
+      features: [
+        'Dynamic quote generation using REST API',
+        'Dark mode and responsive design',
+        'Copy quote and save favorite quote functionality',
+        'Toast notifications for enhanced user experience',
+      	'Local Storage integration for persistent data'
+      ],
+      links: [
+        { label: 'Live Project Link', url: 'https://django-smart-quote-generator.onrender.com/', outline: false },
+        { label: 'GitHub Repository Link', url: 'https://django-smart-quote-generator.onrender.com/', outline: false },
+        { label: 'Project Documentation', url: '', outline: true },
+      ],
+    },
+        {
+      title: 'Flask-based URL Shortener ',
+      tech: ['Flask', 'SQL Alchemy', 'SQLite', 'HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript'],
+      desc:
+        'Developed QuickLink, a Flask-based URL Shortener and Analytics Platform that generates short URLs, tracks user engagement, and visualizes click analytics. Implemented QR code generation, search functionality, and responsive dashboard interfaces using Bootstrap and Chart.js. Utilized SQLAlchemy ORM with SQLite for efficient database management. Designed a scalable architecture  	demonstrating backend development, API integration, and analytics reporting.',
+      features: [
+        'Developed URL shortening and redirection system using Flask and SQLAlchemy.',
+        'Implemented click tracking analytics with interactive Chart.js visualizations.',
+        'Built REST APIs for URL management and analytics reporting.',
+        'Integrated QR code generation and copy-to-clipboard functionality.',
+      	'Designed responsive Bootstrap dashboard with search and CRUD operations.',
+      ],
+      links: [
+        { label: 'Live Project Link', url: 'https://quicklink-flask-url-shortener.onrender.com', outline: false },
+        { label: 'GitHub Repository Link', url: 'https://github.com/charanepuri/quicklink-flask-url-shortener', outline: false },
+        { label: 'Project Documentation', url: '', outline: true },
+      ],
+    },
     {
       title: 'Terms & Conditions Analyzer Web Application',
       tech: ['JavaScript', 'Tailwind CSS'],
