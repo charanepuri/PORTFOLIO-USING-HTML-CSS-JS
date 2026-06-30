@@ -102,6 +102,29 @@
 
   const projectsData = [
         {
+      title: 'Converter Hub - Modern React Utility Platform',
+      tech: ['React JS','JavaScript(ES6+)','HTML5','CSS3','React Router DOM','React Icons','React Hot Toast','Vite','Git','GitHub'],
+      desc: 
+      'Converter Hub is a comprehensive utility web application developed using React.js that brings together 33 everyday converters and calculators in one intuitive platform. The application focuses on speed, usability, responsive design, and reusable component architecture, making it suitable for students, developers, professionals, designers, and everyday users. The project demonstrates modern frontend development practices, component reusability, state management, routing, responsive layouts, and scalable project organization.',
+      features: [
+        ' Built 33 interactive converters and calculators.',
+        'Organized tools into 6 easy-to-navigate categories.',
+        'Implemented reusable UI components for consistency across the application.',
+        'Created responsive layouts optimized for all screen sizes.',
+        'Added Dark & Light Theme support using Context API',
+        'Integrated search functionality for faster navigation.',
+        'Implemented copy, clear, and custom notification features across tools.',
+        'Designed clean and intuitive user interfaces following modern UI/UX principles.',
+        'Built a scalable folder structure for easy maintenance and future enhancements.',
+        'Developed utility modules to separate business logic from UI components.'
+      ],
+      links: [
+        { label: 'Live Project Link', url: 'https://converter-hub.netlify.app/', outline: false },
+        { label: 'GitHub Repository Link', url: 'https://github.com/charanepuri/converter-hub-react', outline: false },
+        { label: 'Project Documentation', url: 'https://drive.google.com/file/d/1SNgjGRtMIHigqUcEaXPg1pzwcgJEklHj/view?usp=drive_link', outline: true },
+      ],
+    },
+        {
       title: 'Smart Quote Generator',
       tech: ['Django' ,'HTML5 ', 'CSS3', 'JavaScript' , 'REST API' , 'Local Storage' , 'Git' , 'GitHub' , 'Render'],
       desc:
@@ -116,7 +139,7 @@
       links: [
         { label: 'Live Project Link', url: 'https://django-smart-quote-generator.onrender.com/', outline: false },
         { label: 'GitHub Repository Link', url: 'https://django-smart-quote-generator.onrender.com/', outline: false },
-        { label: 'Project Documentation', url: '', outline: true },
+        { label: 'Project Documentation', url: 'https://drive.google.com/file/d/1U4-_Wd5CGDeLSvkLILivz8uRg6nU-Q0C/view?usp=drive_link', outline: true },
       ],
     },
         {
@@ -134,7 +157,7 @@
       links: [
         { label: 'Live Project Link', url: 'https://quicklink-flask-url-shortener.onrender.com', outline: false },
         { label: 'GitHub Repository Link', url: 'https://github.com/charanepuri/quicklink-flask-url-shortener', outline: false },
-        { label: 'Project Documentation', url: '', outline: true },
+        { label: 'Project Documentation', url: 'https://drive.google.com/file/d/1tz7PUxLn-9Xc9sFtxSq8HkHD4UDybcmE/view?usp=drive_link', outline: true },
       ],
     },
     {
