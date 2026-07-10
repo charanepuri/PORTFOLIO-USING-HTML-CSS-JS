@@ -101,6 +101,26 @@
   ];
 
   const projectsData = [
+            {
+      title: 'Personal Finance Manager',
+      tech: ['JavaScript(ES6+)', 'HTML5', 'CSS3', 'Chart.js', 'Browser Local Storage API', 'Git', 'GitHub'],
+      desc: 
+      'A comprehensive, browser-based, client-side web application designed to track personal financial activities. Built with pure HTML, CSS, and vanilla JavaScript, it provides users with an intuitive, mobile-first interface to seamlessly manage income, expenses, budgets, and financial goals without relying on external frontend frameworks. All data is persisted locally in the user"s browser via the Local Storage API, ensuring total privacy and immediate access.',
+      features: [
+        'Central Dashboard: Provides a quick overview of financial health featuring summary cards (available balance, monthly income, expenses, savings) alongside interactive Chart.js graphs showing income vs. expense breakdowns.',
+        'Transaction Management & Logs: Features a user-friendly modal form to easily add, edit, and delete transactions, as well as dedicated log pages with month/year filtering capabilities.',
+        'Budget Tracking: Allows users to set monthly budgets for distinct expense categories and visualize spending progress via progress bars.',
+        'Interactive Calendar View: Offers a visual monthly calendar to track daily transaction history and observe spending patterns.',
+        'Goal-Oriented Wishlist: A dedicated module for tracking long-term financial goals and desired purchases without impacting the core monthly budget.',
+        'Advanced Data Control & Theming: Supports seamless dark/light mode toggling, application data resets, and data portability through JSON/CSV exporting and JSON backup importing..',
+      ],
+      links: [
+        { label: 'Live Project Link', url: 'https://charanepuri.github.io/Personal-Finance-Manager/', outline: false },
+        { label: 'GitHub Repository Link', url: 'https://github.com/charanepuri/Personal-Finance-Manager', outline: false },
+        { label: 'Project Documentation', url: '#', outline: true },
+      ],
+    },
+
         {
       title: 'Converter Hub - Modern React Utility Platform',
       tech: ['React JS','JavaScript(ES6+)','HTML5','CSS3','React Router DOM','React Icons','React Hot Toast','Vite','Git','GitHub'],
