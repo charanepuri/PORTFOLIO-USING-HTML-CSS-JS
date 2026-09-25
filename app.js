@@ -101,6 +101,111 @@
   ];
 
   const projectsData = [
+        {
+      title: "AI Interview Coach",
+      tech: ['React JS','JavaScript','HTML5','CSS3','Vite','React Router DOM','Axios','Groq AI API'],
+      desc:
+        "A modern AI-powered interview practice platform that simulates interviews, evaluates responses, and provides actionable feedback.",
+      features: [
+        'Dynamic AI interview question generation.',
+        'Real-time AI answer evaluation.',
+        'Dark and Light theme support.',
+        'Responsive design.',
+        'Role-based and difficulty-based interview customization.',
+      ],
+      links: [
+        { label: 'Live Project Link', url: '', outline: false },
+        { label: 'GitHub Repository Link', url: '', outline: false },
+        { label: 'Project Documentation', url: '', outline: true },
+      ],
+    },
+        {
+      title: "Color Studio Using Angular",
+      tech: ['Angular 21','TypeScript','HTML5','CSS3','Angular Router','Forms Module','Standalone Components'],
+      desc:
+        "A modern Color Studio built with Angular 21 featuring a Color Picker, Palette Generator, Gradient Generator, and Color Converter. The application includes a responsive glassmorphism UI, live color previews, color conversions, gradient generation, and interactive tools for designers and developers.",
+      features: [
+        'Professional Color Picker',
+        'Dynamic Palette Generator',
+        'Gradient Generator (Linear, Radial & Conic)',
+        'HEX, RGB & HSL Color Converter',
+        ' Copy to Clipboard',
+        'Random Color & Gradient Generator',
+        'Fully Responsive Design',
+	      'Glassmorphism UI',
+	      'Built with Angular 21 Standalone Components',
+      ],
+      links: [
+        { label: 'Live Project Link', url: 'https://color-studio-angular.vercel.app/', outline: false },
+        { label: 'GitHub Repository Link', url: 'https://github.com/charanepuri/color-studio-angular', outline: false },
+        { label: 'Project Documentation', url: '', outline: true },
+      ],
+    },
+        {
+      title: 'Nexora AI – AI-Powered Question Answering Web Application',
+      tech: ['Python', 'Flask', 'HTML5', 'CSS3', 'Bootstrap', 'JavaScript','Google Gemini API', 'Git', 'GitHub', 'Render'],
+      desc:
+        "Nexora AI is a modern AI-powered question-answering web application that leverages Google's Gemini API to deliver accurate and concise responses to user queries. Built with Flask and a responsive frontend, the application emphasizes simplicity, performance, and an intuitive user experience. " ,
+      features: [
+        'Integrated Google Gemini API for real-time AI-powered question answering.',
+        'Built a Flask backend to handle API communication and response processing.',
+        'Designed a modern, responsive interface using HTML5, CSS3, Bootstrap, and JavaScript.',
+        'Implemented session-based chat history without requiring user authentication.',
+        'Added features including Copy Response, Download Response as TXT, Clear Chat, and Enter-to-Submit.',
+      	'Developed a responsive layout optimized for desktop, tablet, and mobile devices.',
+	      'Managed API keys securely using environment variables.',
+	      'Successfully deployed the application on Render with GitHub integration.',
+      ],
+      links: [
+        { label: 'Live Project Link', url: '', outline: false },
+        { label: 'GitHub Repository Link', url: '', outline: false },
+        { label: 'Project Documentation', url: '', outline: true },
+      ],
+    },
+        {
+      title: 'Sambar Handbook – Django Web Application',
+      tech: ['Python', 'Django', 'SQLite', 'HTML5', 'CSS3', 'Bootstrap', 'JavaScript', 'Django ORM', 'Pillow', 'WhiteNoise', 'Gunicorn', 'Git', 'GitHub', 'Render'],
+      desc:
+        'Sambar Handbook is a feature-rich Django web application that showcases the history, regional varieties, recipes, ingredients, nutritional information, cooking tips, image gallery, and fascinating facts about Sambar. Built with Django and Bootstrap, the application provides a responsive and interactive user experience while allowing dynamic content management through the Django Admin Panel. It demonstrates full-stack web development concepts including database modeling, template inheritance, ORM relationships, image handling, search functionality, and cloud deployment.',
+      features: [
+        'Comprehensive information portal featuring Sambar history, regional varieties, recipes, nutrition, and cooking tips.',
+        'Dynamic recipe and ingredient management powered by Django Admin and SQLite database.',
+        'Advanced search and filtering functionality for recipes and ingredients.',
+        'Responsive Bootstrap-based interface with hero section, carousel, statistics dashboard, gallery, and detailed information pages.',
+        'Implemented Django ORM relationships including ForeignKey, One-to-One, and Many-to-Many associations.',
+	      'Image upload support for recipes, ingredients, and gallery sections using Pillow.',
+      	'Included Quick Shopping List, Facts & Fun Facts, Contact, and About sections for an enhanced user experience.',
+      	'Successfully deployed on Render with WhiteNoise and Gunicorn for production-ready static file handling.',
+      ],
+      links: [
+        { label: 'Live Project Link', url: '', outline: false },
+        { label: 'GitHub Repository Link', url: '', outline: false },
+        { label: 'Project Documentation', url: '', outline: true },
+      ],
+    },
+        {
+      title: 'CSK Legacy – Chennai Super Kings Tribute Website',
+      tech: ['Python','Flask','SQLite3','HTML5','CSS3','Bootstrap5','JavaScript','Jinja2 Templates','Git & GitHub','Render Deployment'],
+      desc:
+        'CSK Legacy is a comprehensive fan-made tribute platform celebrating the journey and achievements of Chennai Super Kings (CSK). Built using Flask and SQLite, the application provides detailed information about team history, iconic players, memorable matches, season performances, squad archives, records, galleries, and fan culture. The project demonstrates full-stack web development, database integration, dynamic content management, responsive UI design, and cloud deployment.',
+      features: [
+        'Designed and developed a complete Flask-based full-stack web application.',
+        'Created dynamic database-driven modules for legends, matches, seasons, squads, and galleries.',
+        'Implemented player detail pages using dynamic URL routing and database queries.',
+        'Built an interactive statistics dashboard featuring team records and achievements.',
+        'Developed season-wise squad filtering and archive functionality.',
+        'Created responsive and visually appealing interfaces optimized for desktop and mobile devices.',
+        'Implemented custom error handling pages and user-friendly navigation.',
+        'Structured the project using reusable templates and modular Flask architecture.',
+        'Managed data storage and retrieval using SQLite.',
+        'Successfully deployed the application on Render for public access'
+      ],
+      links: [
+        { label: 'Live Project Link', url: 'https://csk-legacy-flask.onrender.com/', outline: false },
+        { label: 'GitHub Repository Link', url: '', outline: false },
+        { label: 'Project Documentation', url: '', outline: true },
+      ],
+    },
             {
       title: 'Personal Finance Manager',
       tech: ['JavaScript(ES6+)', 'HTML5', 'CSS3', 'Chart.js', 'Browser Local Storage API', 'Git', 'GitHub'],
@@ -913,6 +1018,36 @@
       .join('');
   };
 
+  const renderFooter = () => {
+    const footer = document.querySelector('footer');
+    if (!footer) return;
+
+    const portfolioLinks = [
+      { name: 'Django', url: 'https://portfolio-site-django.onrender.com' },
+      { name: 'React', url: 'https://charan-react-portfolio.vercel.app' },
+      { name: 'Flask', url: 'https://flask-developer-dashboard-portfolio.onrender.com/' },
+    ];
+
+    const socialLinks = [
+      { name: 'LinkedIn', url: 'https://www.linkedin.com/in/charan-teja-972aa9231/' },
+      { name: 'GitHub', url: 'https://github.com/charanepuri' },
+      { name: 'Email', url: 'mailto:Charanepuri26@gmail.com' },
+    ];
+
+    footer.innerHTML = `
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Explore Other Portfolios</h4>
+          <ul class="footer-links">
+            ${portfolioLinks.map(link => `<li><a href="${escapeHTML(link.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(link.name)} Portfolio</a></li>`).join('')}
+          </ul>
+        </div>
+        <div class="footer-section">
+          <p style="text-align: center;">Built with ❤️ by Charan Teja Epuri</p>
+        </div>
+      </div>`;
+  };
+
   // -------------------- Events --------------------
   const bindSmoothScroll = () => {
     document.querySelectorAll('a[href^="#"]').forEach((link) => {
@@ -1042,6 +1177,7 @@
     renderSkills();
     renderProjects();
     renderCertifications();
+    renderFooter();
     bindSmoothScroll();
     bindNavToggle();
     bindTypewriter();
